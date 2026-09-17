@@ -1,1 +1,11 @@
 
+import os
+
+MARKET_SYMBOL = os.getenv("MARKET_SYMBOL", "EUR/USD")
+TIMEFRAME = os.getenv("TIMEFRAME", "1min")
+
+MARKET_DATA_API_KEY = os.getenv("MARKET_DATA_API_KEY", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+
+CANDLE_LIMIT = 100
